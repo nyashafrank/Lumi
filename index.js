@@ -8,6 +8,7 @@ const TransactionPool = require('./wallet/transaction-pool');
 const Wallet = require('./wallet');
 const TransactionMiner = require('./app/transaction-miner');
 
+
 const app = express();
 const blockchain = new Blockchain();
 const transactionPool = new TransactionPool();
